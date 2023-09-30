@@ -1,0 +1,51 @@
+/* seccionContactos.module.css */
+
+.contenedor {
+  font-family: Arial, sans-serif;
+  background-color: rgb(138, 138, 138);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding-bottom: 70px;
+  padding-top: 40px;
+}
+
+.cantContactos {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.listaContactos {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.elementoContactos {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center; /* Texto centrado */
+}
+
+.elementoContactos:hover {
+  background-color: #f2f2f2;
+}
+
+@media (max-width: 600px) {
+  .elementoContactos {
+    padding: 10px;
+  }
+
+  .cantContactos {
+    font-size: 22px;
+  }
+}
